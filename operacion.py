@@ -20,6 +20,10 @@ class Suma(Operacion):
 class Resta(Operacion):
     def resta(self):
         return self.get_num1() - self.get_num2()
+    
+class Multiplicacion(Operacion):
+    def multipliacion(self):
+        return self.get_num1()* self.get_num2()
 
 
     

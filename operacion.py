@@ -1,7 +1,7 @@
 class Operacion:
-    def __init__(self, num1, num2):
-        self.__num1=num1
-        self.__num2=num2
+    def __init__(self, num01, num02):
+        self.__num1=num01
+        self.__num2=num02
 
     def get_num1(self):
         return self.__num1
